@@ -1,0 +1,115 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0; /*внешний отступ*/
+    padding: 0; /*внутренний отступ*/
+}
+.header{
+    width: 100%;
+    color: white;
+    padding: 20px;
+    background-color: #151c39e8;
+    box-sizing: border-box; /*для того чтобы масшаб картинки не менялся*/
+}
+.menu-item{
+    list-style: none;
+}
+.menu-link{
+    color: white;
+    text-decoration: none; /*убираем нижнее подчеркивание*/
+    text-transform: uppercase; /*преобразование букв в заглавные*/
+    font-weight: bold; /*насыщенность шрифта*/
+}
+.container{
+    max-width: 1140px; /*макс.ширина на которое может растянуться содержимое*/
+    padding: 0 15px; /*внутренний отступ*/
+    margin: 0 auto; /*внешний отступ*/
+}
+.banner-title, .banner-description{
+    text-align: center; /*выравнивание текста*/
+    color: white;
+}
+.banner-title{
+    font-size: 48px;
+}
+.banner-section{
+    padding: 100px;
+    background: url(images/banner-bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.cards-section{
+    padding: 50px 0;
+}
+.cards-title, .cards-description{
+    color: #151c39e8;
+    text-align: center;
+}
+.card{
+    padding: 25px;
+    margin-top: 25px;
+    background-color: white;
+    box-shadow: 0px 2px 7px 0px #9e90ff; /*тень*/
+    text-align: center;
+}
+.card-link{
+    text-decoration: none;
+    color: white;
+}
+.card-button{
+    text-align: center;
+    background-color: #151c39e8;
+    padding: 10px 7px;
+    border-radius: 10px;
+}
+.card-title, .card-text{
+    margin-bottom: 10px;
+}
+.cards {
+    display: inline-block;
+    width: 25%;
+    margin: 0px 45px;
+}
+.footer{
+    background: url(images/footer-bg.jpg);
+    background-size: cover;
+    padding: 100px 0px;
+}
+.copyright{
+    color: white;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+/* .header-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+} */
+.header-logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-grow: 1;
+}
+.logo-img{
+    margin-right: 40px;
+}
+.header-menu{
+    flex-grow: 3;
+}
+.footer-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.social-networks{
+    display: flex;
+    justify-content: flex-end;
+}
+.footer-logo{
+    width: 60px;
+    height: 60px;
+    margin: 10 px;
+}
